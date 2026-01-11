@@ -1,0 +1,12 @@
+package com.exercise_2.Exercise2.repository;
+
+import com.exercise_2.Exercise2.model.Pet;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface IPetRepository extends JpaRepository<Pet, Long> {
+    List<Pet> getAllPetsBySpeciesAndBreed(String species, String breed);
+}
