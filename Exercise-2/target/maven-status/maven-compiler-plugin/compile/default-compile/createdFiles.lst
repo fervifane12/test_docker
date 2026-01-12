@@ -1,0 +1,12 @@
+com\exercise_2\Exercise2\model\Pet.class
+com\exercise_2\Exercise2\repository\IPetRepository.class
+com\exercise_2\Exercise2\controller\OwnerController.class
+com\exercise_2\Exercise2\service\IOwnerService.class
+com\exercise_2\Exercise2\Exercise2Application.class
+com\exercise_2\Exercise2\service\IPetService.class
+com\exercise_2\Exercise2\dto\PetOwnerDTO.class
+com\exercise_2\Exercise2\service\PetService.class
+com\exercise_2\Exercise2\controller\PetController.class
+com\exercise_2\Exercise2\repository\IOwnerRepository.class
+com\exercise_2\Exercise2\model\Owner.class
+com\exercise_2\Exercise2\service\OwnerService.class
